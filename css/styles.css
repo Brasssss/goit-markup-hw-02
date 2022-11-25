@@ -12,3 +12,18 @@
 Цвет выделенного текста синий  #2196F3
 цвет ссылок в адресе #rgba(255, 255, 255, .4)
 */
+
+:root{
+    --background-color-black : #2F303A;
+    --background-color-white : #F5F5F5;
+    --background-color-grey: #757575;
+    --background-color-icon-white: #FFFFFF;
+    --text-color-black: #212121;
+    --text-color-white: #FFFFFF;
+    --text-color-blue: #2196F3;
+    --logo-color-black: #212121;
+    --logo-color-blue: #2196F3;
+    --accent-color-blue: #2196F3;
+    --address-links-color-grey: #rgba(255, 255, 255, .4);
+
+}
