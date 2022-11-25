@@ -29,7 +29,7 @@
     --accent-color-blue: #2196F3;
     --address-links-color-grey: rgba(255, 255, 255, .4);
 }
-.body{
+.body-document{
     color: var(--text-color-black);
 }
 ul{
@@ -74,6 +74,12 @@ ul{
 .hero-button{
     color: var(--text-color-white);
     background-color: var(--accent-color-blue);
+    cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+    color: var(--text-color-black);
+    background-color: var(--background-color-white);
 }
 
 /* central part */
@@ -105,10 +111,10 @@ ul{
 }
 
 /* footer */
-.footer{
+.basement{
 background-color: var(--background-color-black);
 }
-.footer-logo{
+.basement-logo{
     color: var(--text-color-white);
 }
 
@@ -117,4 +123,34 @@ background-color: var(--background-color-black);
 }
 .address-contact{
 color: var(--address-links-color-grey);
+}
+.address-link,
+.address-contact:hover,
+.address-link,
+.address-contact:focus{
+color: var(--accent-color-blue);
+}
+
+/* portfolio */
+.portfolio-projects{
+    background-color: var(--background-color-white);
+}
+.project-button{
+    color: var(--text-color-black);
+    background-color: var(--background-color-dark-white);
+    cursor: pointer;
+}
+.project-button:hover,
+.project-button:focus{
+    color: var(--background-color-full-white);
+    background-color: var(--accent-color-blue);
+}
+.portfolio-project-list{
+    background-color: var(--background-color-full-white);
+}
+.portfolio-project-title{
+    color: var(--text-color-black);
+}
+.portfolio-project-text{
+    color: var(--text-color-grey);
 }
