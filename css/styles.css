@@ -35,6 +35,9 @@
 ul{
     list-style: none;
 }
+a{ 
+    text-decoration: none;
+}
 
 /* header */
 
@@ -63,13 +66,17 @@ ul{
     color: var(--accent-color-blue);
 }
 
-/* hero */
+/* герой/hero */
 .hero{
     background-color: var(--background-color-black);
 }
 
 .hero-title{
     color: var(--text-color-white);
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.06em;
+    
 }
 .hero-button{
     color: var(--text-color-white);
@@ -82,35 +89,46 @@ ul{
     background-color: var(--background-color-white);
 }
 
-/* central part */
+/* особливості/central part */
 .central-part{
     background-color: var(--background-color-white);
 }
 
-/*features */
-.features-title,
+/*особливості/features */
+.features-title{
+    color: var(--text-color-black);
+    text-align: center;
+}
 .features-list{
     color: var(--text-color-black);
+    text-transform: uppercase;
 }
 .features-text{
     color: var(--text-color-grey);
 }
-/* team */
+/* перелiк послуг/servises */
+.services-title{
+    text-align: center;
+}
+/* команда розробникiв / team */
 .team{
     background-color: var(--background-color-dark-white);
 }
 .team-list{
     background-color: var(--background-color-full-white);
 }
+
 .team-title,
 .team-name{
     color: var(--text-color-black);
+    text-align: center;
 }
 .team-prof{
     color: var(--text-color-grey);
+    text-align: center;
 }
 
-/* footer */
+/* підвал.ooter */
 .basement{
 background-color: var(--background-color-black);
 }
@@ -132,6 +150,9 @@ color: var(--accent-color-blue);
 }
 
 /* portfolio */
+
+/* Перелік розробок / projects */
+
 .portfolio-projects{
     background-color: var(--background-color-white);
 }
