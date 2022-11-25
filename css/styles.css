@@ -2,6 +2,7 @@
 /* 
 цвет фона черный  #2F303A
 цвет фона белый  #F5F5F5
+цвет фона темно-белый #F5F4FA
 цвет фона сероватый #757575 
 цвет фона иконок белый  #FFFFFF
 цвет текста черный #212121
@@ -16,8 +17,9 @@
 :root{
     --background-color-black : #2F303A;
     --background-color-white : #F5F5F5;
+    --background-color-dark-white : #F5F4FA;
     --background-color-grey: #757575;
-    --background-color-icon-white: #FFFFFF;
+    --background-color-full-white: #FFFFFF;
     --text-color-black: #212121;
     --text-color-grey:#757575;
     --text-color-white: #FFFFFF;
@@ -33,9 +35,11 @@
 ul{
     list-style: none;
 }
+
 /* header */
+
 .header{
-    background-color: var(--background-color-icon-white);
+    background-color: var(--background-color-full-white);
 }
 .logo{
     color: var(--logo-color-black);
@@ -58,6 +62,7 @@ ul{
 .nav-contacts-link:focus{
     color: var(--accent-color-blue);
 }
+
 /* hero */
 .hero{
     background-color: var(--background-color-black);
@@ -69,6 +74,34 @@ ul{
 .hero-button{
     color: var(--text-color-white);
     background-color: var(--accent-color-blue);
+}
+
+/* central part */
+.central-part{
+    background-color: var(--background-color-white);
+}
+
+/*features */
+.features-title,
+.features-list{
+    color: var(--text-color-black);
+}
+.features-text{
+    color: var(--text-color-grey);
+}
+/* team */
+.team{
+    background-color: var(--background-color-dark-white);
+}
+.team-list{
+    background-color: var(--background-color-full-white);
+}
+.team-title,
+.team-name{
+    color: var(--text-color-black);
+}
+.team-prof{
+    color: var(--text-color-grey);
 }
 
 /* footer */
