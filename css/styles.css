@@ -19,11 +19,69 @@
     --background-color-grey: #757575;
     --background-color-icon-white: #FFFFFF;
     --text-color-black: #212121;
+    --text-color-grey:#757575;
     --text-color-white: #FFFFFF;
     --text-color-blue: #2196F3;
     --logo-color-black: #212121;
     --logo-color-blue: #2196F3;
     --accent-color-blue: #2196F3;
-    --address-links-color-grey: #rgba(255, 255, 255, .4);
+    --address-links-color-grey: rgba(255, 255, 255, .4);
+}
+.body{
+    color: var(--text-color-black);
+}
+ul{
+    list-style: none;
+}
+/* header */
+.header{
+    background-color: var(--background-color-icon-white);
+}
+.logo{
+    color: var(--logo-color-black);
+}
 
+.logo-part{
+    color: var(--logo-color-blue);
+}
+.link{
+    color: var(--text-color-black);
+}
+.link:hover,
+.link:focus{
+    color:  var(--accent-color-blue);
+}
+.nav-contacts-link{
+    color: var(--text-color-grey)
+}
+.nav-contacts-link:hover,
+.nav-contacts-link:focus{
+    color: var(--accent-color-blue);
+}
+/* hero */
+.hero{
+    background-color: var(--background-color-black);
+}
+
+.hero-title{
+    color: var(--text-color-white);
+}
+.hero-button{
+    color: var(--text-color-white);
+    background-color: var(--accent-color-blue);
+}
+
+/* footer */
+.footer{
+background-color: var(--background-color-black);
+}
+.footer-logo{
+    color: var(--text-color-white);
+}
+
+.address-link{
+    color: var(--text-color-white);
+}
+.address-contact{
+color: var(--address-links-color-grey);
 }
