@@ -69,8 +69,8 @@ a{
     letter-spacing: 0.02em;
     color: var(--text-color-black);
 }
-.link:hover,
-.link:focus{
+.nav-link:hover,
+.nav-link:focus{
     color:  var(--accent-color-blue);
 }
 .nav-contacts-link{
@@ -129,13 +129,15 @@ a{
     text-transform: uppercase;
     font-weight: 700;
     line-height: 1.14;
+    font-size: 14px;
 }
 .features-text{
     color: var(--text-color-grey);
     line-height: 1.71;
 }
 /* перелiк послуг/servises */
-.services-title{
+.section-title{
+    color: var(--text-color-black);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -147,13 +149,6 @@ a{
 }
 .team-list{
     background-color: var(--background-color-full-white);
-}
-.team-title{
-    color: var(--text-color-black);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
 }
 .team-name{
     color: var(--text-color-black);
@@ -183,13 +178,11 @@ a{
 
 .address-link{
     color: var(--text-color-white);
-    font-size: 14px;
     line-height: 1.71;
     font-style: normal;
 }
 .address-contact{
     color: var(--address-links-color-grey);
-    font-size: 14px;
     line-height: 1.71;
     font-style: normal;
 }
@@ -205,7 +198,7 @@ a{
 .portfolio-projects{
     background-color: var(--background-color-white);
 }
-.portfolio-projects-tytle{
+.portfolio-title{
     color: tomato;
 }
 .project-button{
@@ -226,7 +219,6 @@ a{
 }
 .portfolio-project-title{
     color: var(--text-color-black);
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
