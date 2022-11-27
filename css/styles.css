@@ -30,8 +30,10 @@
     --address-links-color-grey: rgba(255, 255, 255, .4);
 }
 .body-style{
-    font-family: 'Roboto Flex', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: var(--text-color-black);
+    background-color: var(--background-color-white);
+    font-size: 14px;
     letter-spacing: 0.03em;
 }
 ul{
@@ -50,8 +52,7 @@ a{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
+    line-height: 1.19;
     color: var(--logo-color-black);
 }
 
@@ -59,14 +60,12 @@ a{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
+    line-height: 1.2;
     color: var(--logo-color-blue);
 }
-.link{
+.nav-link{
     font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--text-color-black);
 }
@@ -76,8 +75,7 @@ a{
 }
 .nav-contacts-link{
     font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--text-color-grey)
 }
@@ -95,7 +93,7 @@ a{
     color: var(--text-color-white);
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 0.06em;
@@ -106,9 +104,7 @@ a{
     background-color: var(--accent-color-blue);
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
-    align-items: center;
-    text-align: center;
+    line-height: 1.88;
     letter-spacing: 0.06em;
     cursor: pointer;
 }
@@ -132,21 +128,17 @@ a{
     color: var(--text-color-black);
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
 }
 .features-text{
     color: var(--text-color-grey);
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
+    line-height: 1.71;
 }
 /* перелiк послуг/servises */
 .services-title{
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
-    letter-spacing: 0.03em;
+    line-height: 1.17;
     text-align: center;
 }
 /* команда розробникiв / team */
@@ -160,20 +152,20 @@ a{
     color: var(--text-color-black);
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
     text-align: center;
 }
 .team-name{
     color: var(--text-color-black);
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     text-align: center;
 }
-.team-prof{
+.team-position{
     color: var(--text-color-grey);
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     text-align: center;
 }
 
@@ -186,24 +178,22 @@ a{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
+    line-height: 1.19;
 }
 
 .address-link{
     color: var(--text-color-white);
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
+    font-style: normal;
 }
 .address-contact{
     color: var(--address-links-color-grey);
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
+    font-style: normal;
 }
-
-.address-link,
 .address-contact:hover,
-.address-link,
 .address-contact:focus{
     color: var(--accent-color-blue);
 }
@@ -222,8 +212,7 @@ a{
     color: var(--text-color-black);
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
-    text-align: center;
+    line-height: 1.63;
     background-color: var(--background-color-dark-white);
     cursor: pointer;
 }
@@ -239,11 +228,11 @@ a{
     color: var(--text-color-black);
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
 }
 .portfolio-project-text{
     color: var(--text-color-grey);
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.88;
 }
